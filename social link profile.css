@@ -1,10 +1,23 @@
 
 .box{
-    background-color:rgb(26, 24, 24);;
+    /* background-color:rgb(26, 24, 24); 
     width: 19%;
     height: 150%;
     margin:0% 40% 0% 45%;
-    border-radius:10px;
+    border-radius:10px; 
+    box-sizing: border-box;
+    
+    background-color:rgb(66, 61, 61);*/
+    box-sizing: border-box;
+  width: 20%;
+
+  margin:0% 40% 0% 45%;
+  padding: 20px;
+  border-radius:10px;
+  border: 2px solid rgb(21, 19, 19);
+  background-color: rgb(24, 23, 23);
+    
+
 }
 .box img{
     width: 80px;
@@ -15,28 +28,30 @@
 #name{
     font-size: 22px;
     color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     padding-top: 5px;
+    font-weight: bold;
 }
 #place{
     color:yellowgreen;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 10px;
-    font-weight: bold;
-    margin-top: 0px;
-    padding-top: 0px;
+    font-weight: 600;
+    margin-top: 2px;
+    margin-bottom: 15px;
 }
 p{
     color:white;
-    font-family: "Franklin Gothic Small", "Arial Narrow", Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 11px;
     margin: 0px;
     padding: 5px 5px;
 }
 button{
-    background-color:rgb(78, 73, 73);
+    background-color:rgb(46, 43, 43);
+    font-size: 12PX;
     color:white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     width:80%;
     height:100%;
     padding: 10px 50px;
@@ -48,4 +63,5 @@ button{
 body{
     background-color: rgb(14, 14, 14);
     padding-top: 10%;  
+
 }
